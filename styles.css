@@ -1,0 +1,31 @@
+body{
+    background-color:#3b4717;
+    margin:3rem;
+}
+h1, h2{
+    color:#f8f8ee;
+    font-family: 'Pirata One';
+}
+h3{
+    color:#f8f8ee;
+    font-family: 'Delius Swash Caps';
+}
+.home{
+    border-radius:20px;
+    background-color:#5f2e1c;
+    margin:2rem;
+    text-align:center;
+}
+.flex{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.spotlight{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.spotlight img{
+    width: 20rem;
+}
