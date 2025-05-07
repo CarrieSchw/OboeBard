@@ -1,6 +1,8 @@
 body{
     background-color:#3b4717;
-    margin:3rem;
+}
+main{
+    margin:0 3rem;
 }
 h1, h2{
     color:#f8f8ee;
@@ -28,4 +30,58 @@ h3{
 }
 .spotlight img{
     width: 20rem;
+}
+header{
+    background-image:url(Images/background.png);
+    background-repeat:repeat;
+    background-size: 10rem;
+    max-height: 15rem;
+    padding: 2rem;
+    position:relative;
+}
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+}
+header h1{
+    font-size:10rem;
+}
+header img{
+    max-height: 13rem;
+    background-color:#3b4717;
+    padding: 2rem;
+    left:0;
+}
+header nav{
+    position: absolute;
+    width: 25%;
+    top: 15rem;
+}
+header nav a{
+    background-color: #bb6031;
+    display:block;
+    color: #f8f8ee;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Delius Swash Caps';
+    padding: 3rem;
+    border-radius: 10em;
+    top:0;
+}
+header nav a:nth-child(even){
+    background-color:#f8ae67;
+}
+header nav{
+    left: -100%;
+}
+header nav.show{
+    left:0;
+}
+header nav{
+    transition-property:left;
+    transition-duration:.5s;
+    transition-timing-function: ease-in-out;
+    top: 4.75rem;
 }
