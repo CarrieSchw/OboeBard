@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <div class="hamburger" onclick="toggleNav()">
+        <div onclick="toggleNav()">
             <img src="Images/Logo.png" alt="logo">
         </div>
             <nav class="toggle-nav">
@@ -24,18 +24,21 @@
                 <a href="signup.html">Sign Up</a>
                 <a href="profile.html">Profile</a>
             </nav>
-            <div><h1 class="small">Practice Sessions</h1></div>
+        <div><h1 class="small">Practice Sessions</h1></div>
     </header>
     <main>
-        <h3>Scales</h3>
-        <div>^</div>
-        <nav class="toggle-nav">
-            <a href="scales.html">Scales</a>
-            <a href="pitch.html">Pitch</a>
-            <a href="sight-reading.html">Sight-reading</a>
-            <a href="etudes.html">Etudes</a>
-        </nav>
-        <img src="">
+        <section class="menu">
+            <div onclick="toggleMenu()">
+                <h3>Scales</h3>
+            </div>
+                <nav class="toggle-menu">
+                    <a href="scales.html">Scales</a>
+                    <a href="pitch.html">Pitch</a>
+                    <a href="sight-reading.html">Sight-reading</a>
+                    <a href="etudes.html">Etudes</a>
+                </nav>
+            <img src="Images/scales.png" alt="scale sheet">
+        </section>
     </main>
 </body>
 </html>

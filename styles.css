@@ -46,6 +46,7 @@ header{
     width:100%;
     padding: 2rem 2rem 2rem 0;
     position:fixed;
+    z-index: 1;
 }
 header{
     display: flex;
@@ -54,7 +55,7 @@ header{
     align-items: center;
 }
 h1{
-    font-size:8rem;
+    font-size:4rem;
     padding: 0 2rem;
 }
 header img{
@@ -74,7 +75,7 @@ header nav a{
     text-align: center;
     text-decoration: none;
     font-family: 'Delius Swash Caps';
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 10em;
     top:0;
 }
@@ -94,7 +95,7 @@ header nav{
     top: 4.75rem;
 }
 .small{
-    font-size:6rem;
+    font-size:3rem;
 }
 .mission{
     border-radius:20px;
@@ -114,20 +115,105 @@ header nav{
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    padding: 2rem;
-    margin: 2rem 4rem 2rem 0;
+    padding: 1rem 1rem 1rem 2rem;
+    margin: 4rem 4rem 4rem 0;
     position:relative;
+    font-size: 2rem;
 }
 .practice a{
-    border-radius:100%;
+    border-radius:200%;
     background-color:#f8ae67;
     position:absolute;
     right:0;
-    padding:5rem;
+    padding:4rem;
+    color:#f8f8ee;
+    font-family: 'Just Another Hand';
+    text-decoration: none;
+    font-size: 3rem;
+    border:4px solid #f8f8ee;
 }
-.practice div:nth-child(even){
+.practice a:hover{
+    color: #3b4717;
+    border:4px solid #3b4717;
+}
+.menu{
+    position:relative;
+}
+.menu h3{
+    background-color: #bb6031;
+    display:block;
+    color: #f8f8ee;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Delius Swash Caps';
+    padding: 2rem;
+    border-radius: 10em;
+    top:0;
+}
+.toggle-menu a{
+    background-color: #bb6031;
+    display:block;
+    color: #f8f8ee;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Delius Swash Caps';
+    padding: 2rem;
+    border-radius: 10em;
+    top:0;
+}
+.toggle-menu a:nth-child(even){
     background-color:#f8ae67;
 }
-.practice div>a:nth-child(even){
+.toggle-menu{
+    position: absolute;
+    width: 100%;
+    display:none;
+}
+.toggle-menu.show{
+    display:block;
+    top:0;
+}
+.toggle-menu a:hover{
+    border: 2px solid #3b4717;
+    color:#3b4717;
+}
+.menu img{
+    width: 100%;
+    display:block;
+    align-items:center;
+}
+.adventure{
+    background-color:#5f2e1c;
+    display:block;
+    text-align: center;
+    font-family: 'Pirata One';
+    padding: 2rem;
+    border-radius: 8em;
+    border: 4px solid #bb6031;
+    margin: 4rem 0;
+}
+.adventure:hover{
     background-color: #bb6031;
+    border: 4px solid #5f2e1c;
+}
+.adventure h2{
+    color: #bb6031;
+}
+.adventure h2:hover{
+    color:#5f2e1c;
+}
+.orange a{
+    font-family: 'Delius Swash Caps';
+    background-color:#bb6031;
+    border: 2px solid #f8f8ee;
+    text-align:center;
+    padding: 2rem;
+    width: 20%;
+    position:fixed;
+    right:0;
+    bottom:60%;
+    color: #f8f8ee;
+    text-decoration:none;
+    border-radius: 10rem;
+    display:block;
 }
