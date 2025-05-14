@@ -23,11 +23,12 @@ p{
     margin:2rem;
     text-align:center;
     padding: 1rem;
+    width: 20rem;
 }
 .flex{
-    display:flex;
+    display: flex;
     flex-direction:column;
-    justify-content:center;
+    align-items:center;
 }
 .spotlight{
     display:flex;
@@ -65,7 +66,7 @@ header img{
 }
 header nav{
     position: absolute;
-    width: 25%;
+    width: 30%;
     top: 15rem;
 }
 header nav a{
@@ -76,7 +77,7 @@ header nav a{
     text-decoration: none;
     font-family: 'Delius Swash Caps';
     padding: 2rem;
-    border-radius: 10em;
+    border-radius: 3rem;
     top:0;
 }
 header nav a:nth-child(even){
@@ -105,8 +106,7 @@ header nav{
     padding: 1rem;
 }
 .practice{
-    margin:10rem 0;
-    z-index:-1;
+    margin: 10rem 0;
     display:block;
 }
 .practice div{
@@ -115,21 +115,21 @@ header nav{
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    padding: 1rem 1rem 1rem 2rem;
-    margin: 4rem 4rem 4rem 0;
+    padding: 0 1rem 0 2rem;
+    margin: 4rem 2rem 4rem 0;
     position:relative;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .practice a{
     border-radius:200%;
     background-color:#f8ae67;
     position:absolute;
     right:0;
-    padding:4rem;
+    padding:2rem;
     color:#f8f8ee;
     font-family: 'Just Another Hand';
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     border:4px solid #f8f8ee;
 }
 .practice a:hover{
@@ -207,13 +207,82 @@ header nav{
     background-color:#bb6031;
     border: 2px solid #f8f8ee;
     text-align:center;
-    padding: 2rem;
+    padding: 1rem;
     width: 20%;
     position:fixed;
     right:0;
-    bottom:60%;
+    bottom:65%;
     color: #f8f8ee;
     text-decoration:none;
     border-radius: 10rem;
-    display:block;
+}
+.orange a:hover{
+    color:#3b4717;
+    border: 2px solid #3b4717;
+}
+.orange h3{
+    font-family: 'Delius Swash Caps';
+    background-color:#bb6031;
+    border: 2px solid #f8f8ee;
+    text-align:center;
+    color: #f8f8ee;
+    text-decoration:none;
+    border-radius: 10rem;
+    padding: 1rem;
+}
+.merch{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;   
+}
+.merch img{
+    max-width: 10rem;
+    max-height:10rem;
+    border:3px solid #5f2e1c;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+.subscriptions{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.subscriptions h2{
+    max-width: 10rem;
+    max-height:10rem;
+    border:3px solid #5f2e1c;
+    margin: 1rem;
+    border-radius: 2rem;
+    background-color:#f8f8ee;
+    color:#5f2e1c;
+    padding: 5rem;
+}
+.subscriptions h2:nth-child(1):hover{
+    background-color:rgb(185, 130, 10);
+    color:#f8f8ee;
+}
+.subscriptions h2:nth-child(2):hover{
+    background-color:rgb(100, 100, 100);
+    color:#f8f8ee;
+}
+.subscriptions h2:nth-child(3):hover{
+    background-color: #804a00;
+    color:#f8f8ee;
+}
+.profile{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.account{
+    background-color:#f8f8ee;
+    border-radius:2rem;
+    padding: 1rem 8rem 2rem 3rem;
+    color: #3b4717;
+}
+.avatar img{
+    max-width: 20rem;
+    border:3px solid #5f2e1c;
+    margin: 1rem;
+    border-radius: 2rem;
 }
