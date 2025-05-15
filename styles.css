@@ -229,7 +229,7 @@ header nav{
     text-decoration:none;
     border-radius: 10rem;
     padding: 1rem;
-}
+}   
 .merch{
     display: flex;
     flex-wrap:wrap;
@@ -324,6 +324,9 @@ header nav{
     }
     .home{
         width:auto;
+    }
+    .spotlight img{
+        width:40rem;
     }
     .profile{
         display:flex;
