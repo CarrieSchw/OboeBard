@@ -293,4 +293,44 @@ header nav{
     border:3px solid #5f2e1c;
     margin: 1rem;
     border-radius: 2rem;
+    background-color:#f8f8ee;
+}
+@media (min-width:1000px){
+    header nav{
+        position: static;
+        width: unset;
+    }
+    header nav a{
+        padding: 2rem;
+        display: inline;
+        margin:auto;
+    }
+    header nav a:hover{
+        background-color: #3b4717;
+    }
+    h1{
+        display:none;
+    }
+    header{
+       height: 15rem;
+    }
+    header img{
+        max-height: 10rem;
+        background-color:#f8f8ee;
+        padding: 2rem 2rem 2rem 1rem;
+        position:fixed;
+        top:0;
+        z-index:-1;
+    }
+    .home{
+        width:auto;
+    }
+    .profile{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    .account{
+        width:30rem;
+    }
 }
