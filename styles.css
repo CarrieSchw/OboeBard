@@ -273,12 +273,20 @@ header nav{
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin:1rem;
 }
 .account{
     background-color:#f8f8ee;
     border-radius:2rem;
     padding: 1rem 8rem 2rem 3rem;
     color: #3b4717;
+    border:3px solid #5f2e1c;
+}
+.account h2{
+    color:#3b4717;
+}
+.account p{
+    color:#3b4717;
 }
 .avatar img{
     max-width: 20rem;
